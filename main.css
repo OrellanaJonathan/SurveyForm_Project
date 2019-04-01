@@ -3,3 +3,14 @@ html, body, h1, h2, h3, h4, ul, ol, li, p, a {
     border: 0;
     margin: 0;
   }
+  h1 {
+      text-align: center;
+  }
+  body {
+      background-color: rgb(173, 212, 212);
+  }
+.form {
+    background-color: white;
+    text-align: center;
+    border: 250px auto 250px auto;
+}
