@@ -2,15 +2,25 @@ html, body, h1, h2, h3, h4, ul, ol, li, p, a {
     padding: 0;
     border: 0;
     margin: 0;
-  }
+    }
   h1 {
       text-align: center;
-  }
+      padding: 1%;
+    }
   body {
       background-color: rgb(173, 212, 212);
-  }
-.form {
-    background-color: white;
-    text-align: center;
-    border: 250px auto 250px auto;
-}
+    }
+    .form-questions {
+        flex-direction: column;
+        float: left;
+        text-align: center;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+    }
+    .form-answers {
+        flex-direction: column;
+        float: right;
+        text-align: center;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+    }

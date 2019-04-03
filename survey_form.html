@@ -5,33 +5,36 @@
     </head>
     <h1 id="title">Survey Form</h1>
     <Body>
-    <div class="form">
+    <div class="form-questions">
         <form id="survey-form" action="Improving freeCodeCamp">
             <p id="description">Let us know how we can improve freeCodeCamp</p>
             <p>* Name</p><input id="name" type="Text" required placeholder="Enter your name">
             <p>* Email</p><input id="email" type="email" required placeholder="Enter your email">
             <p>* Age</p><input id="number" type="number" required placeholder="Age">
             <p>Which option best describes your current role?</p>
-                <select id="dropdown">
-                    <option value="Student">Student</option>
-                    <option value="Full Time Job">Full Time Job</option>
-                    <option value="Full Time Learner">Full Time Learner</option>
-                    <option value="Prefer not to say">Prefer not to say</option>
-                    <option value="Other">Other</option>
-                </select>                
             <p>* How likely is that you would recommend freeCodeCamp to a friend?</p>
+            <p>What do you like most in FCC?</p>
+            <p>Things that should be improved in the future (Check all that apply):</p>
+            <p>Any Comments or Suggestions?</p>
+    </div>
+    <div class="form-answers">
+                <select class="right-box" id="dropdown">
+                <option value="Student">Student</option>
+                <option value="Full Time Job">Full Time Job</option>
+                <option value="Full Time Learner">Full Time Learner</option>
+                <option value="Prefer not to say">Prefer not to say</option>
+                <option value="Other">Other</option>
+                </select>
                 <label for="recommend"><input id="Definitely" required type="radio" name="DMN">Definitely</label>
                 <label for="recommend"><input id="Maybe" required type="radio" name="DMN">Maybe</label>
                 <label for="recommend"><input id="Not Sure" required type="radio" name="DMN">Not Sure</label>
-            <p>What do you like most in FCC?</p>
                 <select id="dropdown">
-                    <option selected disabled>Select an Option</option>
-                    <option value="Challenges">Challenges</option>
-                    <option value="Projects">Projects</option>
-                    <option value="Community">Community</option>
-                    <option value="Open Source">Open Source</option>
+                <option selected disabled>Select an Option</option>
+                <option value="Challenges">Challenges</option>
+                <option value="Projects">Projects</option>
+                <option value="Community">Community</option>
+                <option value="Open Source">Open Source</option>
                 </select>
-            <p>Things that should be improved in the future (Check all that apply):</p>
                 <label><input value="future" type="checkbox" name="Front-end Projects">Front-end Projects</label>
                 <label><input value="future" type="checkbox" name="Back-end Projects">Back-end Projects</label>
                 <label><input value="future" type="checkbox" name="Data Visualization">Data Visualization</label>
@@ -43,7 +46,6 @@
                 <label><input value="future" type="checkbox" name="Wiki">Wiki</label>
                 <label><input value="future" type="checkbox" name="Forum">Forum</label>
                 <label><input value="future" type="checkbox" name="Additional Courses">Additional Courses</label>
-            <p>Any Comments or Suggestions?</p>
                 <textarea name="comment" form="usrform">Enter your comment here...</textarea><br>
                 <input id="submit" type="submit">
         </form>   
