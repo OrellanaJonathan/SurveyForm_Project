@@ -1,26 +1,29 @@
 html, body, h1, h2, h3, h4, ul, ol, li, p, a {
-    padding: 0;
-    border: 0;
-    margin: 0;
-    }
-  h1 {
-      text-align: center;
-      padding: 1%;
-    }
-  body {
-      background-color: rgb(173, 212, 212);
-    }
-    .form-questions {
-        flex-direction: column;
-        float: left;
-        text-align: center;
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr;
-    }
-    .form-answers {
-        flex-direction: column;
-        float: right;
-        text-align: center;
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr;
-    }
+  padding: 0;
+  border: 0;
+  margin: 0;
+}
+h1 {
+  text-align: center;
+  padding: 1%;
+}
+body {
+  background-color: rgb(173, 212, 212);
+}
+form {
+  margin: auto;
+  width: 75%;
+  padding: 35px;
+  box-align: center;
+  background-color: #ffffff;
+  box-sizing:  border-box;
+  border-radius: 5px;
+  resize: vertical;
+
+}
+.top-t {
+  text-align: center;
+}
+form p {
+  padding: 2%;
+}
