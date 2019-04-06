@@ -7,10 +7,10 @@
     <Body>
         <form id="survey-form" action="Improving_freeCodeCamp">
             <div class="top-t">
-                <p id="description">Let us know how we can improve freeCodeCamp</p>
+                <h4 id="description">Let us know how we can improve freeCodeCamp</h4>
             </div>
-            <p><label>* Name</label>
-                <input id="name" type="Text" required placeholder="Enter your name"></p>
+            <p><div class="Q1"><label>* Name</label></div>
+                <div class="Qa"><input id="name" type="Text" required placeholder="Enter your name"></div></p>
             <p><label>* Email</label>
                 <input id="email" type="email" required placeholder="Enter your email"></p>
             <p><label>* Age</label>
@@ -24,9 +24,10 @@
                     <option value="Other">Other</option>
                 </select></p>
             <p><label>* How likely is that you would recommend freeCodeCamp to a friend?</label>
-                <br><label for="recommend"><input id="Definitely" required type="radio" name="DMN">Definitely</label>
+                <div class="A1">
+                <label for="recommend"><input id="Definitely" required type="radio" name="DMN">Definitely</label>
                 <br><label for="recommend"><input id="Maybe" required type="radio" name="DMN">Maybe</label>
-                <br><label for="recommend"><input id="Not Sure" required type="radio" name="DMN">Not Sure</label></p>
+                <br><label for="recommend"><input id="Not Sure" required type="radio" name="DMN">Not Sure</label></div></p>
             <p><label>What do you like most in FCC?</label>
                 <select id="dropdown">
                     <option selected disabled>Select an Option</option>

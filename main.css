@@ -13,7 +13,6 @@ body {
 form {
   margin: auto;
   width: 75%;
-  padding: 35px;
   box-align: center;
   background-color: #ffffff;
   box-sizing:  border-box;
@@ -23,7 +22,15 @@ form {
 }
 .top-t {
   text-align: center;
-}
-form p {
   padding: 2%;
+}
+label {
+  display: inline-block;
+  width: 35%;
+  text-align: right;
+  padding-left: 10%;
+}
+.Qa {
+  display: inline-block;
+  vertical-align: middle;
 }
