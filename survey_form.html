@@ -9,12 +9,12 @@
             <div class="top-bott">
                 <p id="description">Let us know how we can improve freeCodeCamp</p>
             </div>
-            <div class="questions"><label>* Name</label></div>
+            <div class="questions"><label for="name">* Name</label></div>
             <div class="answers"><input class="input-field" autofocus id="name" type="Text" required placeholder="Enter your name"></div>
-            <div class="questions"><label>* Email</label></div>
+            <div class="questions"><label for="email">* Email</label></div>
             <div class="answers"><input class="input-field" autofocus id="email" type="email" required placeholder="Enter your email"></div>
-            <div class="questions"><label>* Age</label></div>
-            <div class="answers"><input class="input-field" autofocus id="number" type="number" min="1" max="125" required placeholder="Age"></div>
+            <div class="questions"><label for="age">* Age</label></div>
+            <div class="answers"><input class="input-field" autofocus id="age" type="number" min="1" max="125" required placeholder="Age"></div>
             <div class="questions"><label>Which option best describes your current role?</label></div>
             <div class="answers">
                 <select class="selectable" id="dropdown">
@@ -27,9 +27,9 @@
             <div class="questions"><label>* How likely is that you would recommend freeCodeCamp to a friend?</label></div>
             <div class="answers">
                     <ul style="list-style: none;">
-                        <li><label for="recommend"><input id="Definitely" required type="radio" name="DMN">Definitely</label></li>
-                        <li><label for="recommend"><input id="Maybe" required type="radio" name="DMN">Maybe</label></li>
-                        <li><label for="recommend"><input id="Not Sure" required type="radio" name="DMN">Not Sure</label></li>
+                        <li class="radio"><label for="definitely"><input id="definitely" required type="radio" name="DMN">Definitely</label></li>
+                        <li class="radio"><label for="maybe"><input id="maybe" required type="radio" name="DMN">Maybe</label></li>
+                        <li class="radio"><label for="not sure"><input id="not sure" required type="radio" name="DMN">Not Sure</label></li>
                     </ul>
             </div>
             <div class="questions"><label>What do you like most in FCC?</label></div>
@@ -42,22 +42,23 @@
                     <option value="Open Source">Open Source</option>
                     </select></div>
                 <div class="questions"><label>Things that should be improved in the future <br>(Check all that apply):</label></div>
-                <div class="answers"><label><input value="future" type="checkbox" name="Front-end Projects">Front-end Projects</label>
+                <div class="answers">
                     <ul style="list-style: none;">
-                        <li><label><input value="future" type="checkbox" name="Back-end Projects">Back-end Projects</label>
-                        <li><label><input value="future" type="checkbox" name="Data Visualization">Data Visualization</label>
-                        <li><label><input value="future" type="checkbox" name="Challenges">Challenges</label>
-                        <li><label><input value="future" type="checkbox" name="Open Source Community">Open Source Community</label>
-                        <li><label><input value="future" type="checkbox" name="Gitter help rooms">Gitter help rooms</label>
-                        <li><label><input value="future" type="checkbox" name="Videos">Videos</label>
-                        <li><label><input value="future" type="checkbox" name="City Meetups">City Meetups</label>
-                        <li><label><input value="future" type="checkbox" name="Wiki">Wiki</label>
-                        <li><label><input value="future" type="checkbox" name="Forum">Forum</label>
-                        <li><label><input value="future" type="checkbox" name="Additional Courses">Additional Courses</label></div>
+                        <li class="radio"><label><input value="future" type="checkbox" name="Front-end Projects">Front-end Projects</label></li>
+                        <li class="radio"><label><input value="future" type="checkbox" name="Back-end Projects">Back-end Projects</label>
+                        <li class="radio"><label><input value="future" type="checkbox" name="Data Visualization">Data Visualization</label>
+                        <li class="radio"><label><input value="future" type="checkbox" name="Challenges">Challenges</label>
+                        <li class="radio"><label><input value="future" type="checkbox" name="Open Source Community">Open Source Community</label>
+                        <li class="radio"><label><input value="future" type="checkbox" name="Gitter help rooms">Gitter help rooms</label>
+                        <li class="radio"><label><input value="future" type="checkbox" name="Videos">Videos</label>
+                        <li class="radio"><label><input value="future" type="checkbox" name="City Meetups">City Meetups</label>
+                        <li class="radio"><label><input value="future" type="checkbox" name="Wiki">Wiki</label>
+                        <li class="radio"><label><input value="future" type="checkbox" name="Forum">Forum</label>
+                        <li class="radio"><label><input value="future" type="checkbox" name="Additional Courses">Additional Courses</label></div>
                     </ul>
                 <div class="questions"><label>Comments or Suggestions?</label></div>
                 <div class="answers"><textarea class="input-field2" name="comment" form="usrform">Enter your comment here...</textarea></div>
-                <div class="top-bott"><input id="submit" type="submit"></div>
+                <div class="top-bott"><input class="button" id="submit" type="submit"></div>
         </form>
     </Body>
 </html>
