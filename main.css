@@ -18,19 +18,23 @@ form {
   box-sizing:  border-box;
   border-radius: 5px;
   resize: vertical;
-
 }
 .top-t {
   text-align: center;
   padding: 2%;
 }
-label {
+.questions {
   display: inline-block;
-  width: 35%;
+  width: 40%;
   text-align: right;
-  padding-left: 10%;
+  padding: 5px;
+  vertical-align: top;
+  margin-top: 10px;
 }
-.Qa {
+.answers {
   display: inline-block;
+  text-align: left;
+  width: 48%;
   vertical-align: middle;
+  padding: 15px;
 }
