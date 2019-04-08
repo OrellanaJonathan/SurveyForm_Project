@@ -13,7 +13,7 @@ body {
 }
 form {
   margin: auto;
-  width: 50%;
+  width: 45%;
   box-align: center;
   background-color: #ffffff;
   box-sizing:  border-box;
@@ -37,10 +37,26 @@ form {
   text-align: left;
   width: 48%;
   vertical-align: middle;
-  padding: 15px;
+  padding: 5px;
 }
 .input-field {
   height: 20px;
+  width: 280px;
+  padding: 5px;
+  margin: 10px;
+  border: 1px solid #c0c0c0;
+  border-radius: 2px;
+}
+.selectable {
+  height: 30px;
+  width: 250px;
+  padding: 5px;
+  margin: 10px;
+  border: 1px solid #c0c0c0;
+  border-radius: 2px;
+}
+.input-field2 {
+  height: 50px;
   width: 280px;
   padding: 5px;
   margin: 10px;

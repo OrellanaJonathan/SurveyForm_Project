@@ -10,13 +10,14 @@
                 <p id="description">Let us know how we can improve freeCodeCamp</p>
             </div>
             <div class="questions"><label>* Name</label></div>
-            <div class="answers input-field"><input autofocus id="name" type="Text" required placeholder="Enter your name"></div>
+            <div class="answers"><input class="input-field" autofocus id="name" type="Text" required placeholder="Enter your name"></div>
             <div class="questions"><label>* Email</label></div>
-            <div class="answers"><input id="email" type="email" required placeholder="Enter your email"></div>
+            <div class="answers"><input class="input-field" autofocus id="email" type="email" required placeholder="Enter your email"></div>
             <div class="questions"><label>* Age</label></div>
-            <div class="answers"><input id="number" type="number" min="1" max="125" required placeholder="Age"></div>
+            <div class="answers"><input class="input-field" autofocus id="number" type="number" min="1" max="125" required placeholder="Age"></div>
             <div class="questions"><label>Which option best describes your current role?</label></div>
-            <div class="answers"><select id="dropdown">
+            <div class="answers">
+                <select class="selectable" id="dropdown">
                     <option value="Student">Student</option>
                     <option value="Full Time Job">Full Time Job</option>
                     <option value="Full Time Learner">Full Time Learner</option>
@@ -33,7 +34,7 @@
             </div>
             <div class="questions"><label>What do you like most in FCC?</label></div>
             <div class="answers">
-                <select id="dropdown">
+                <select class="selectable" id="dropdown">
                     <option selected disabled>Select an Option</option>
                     <option value="Challenges">Challenges</option>
                     <option value="Projects">Projects</option>
@@ -55,7 +56,7 @@
                         <li><label><input value="future" type="checkbox" name="Additional Courses">Additional Courses</label></div>
                     </ul>
                 <div class="questions"><label>Comments or Suggestions?</label></div>
-                <div class="answers"><textarea name="comment" form="usrform">Enter your comment here...</textarea></div>
+                <div class="answers"><textarea class="input-field2" name="comment" form="usrform">Enter your comment here...</textarea></div>
                 <div class="top-bott"><input id="submit" type="submit"></div>
         </form>
     </Body>
