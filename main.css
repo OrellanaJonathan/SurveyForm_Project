@@ -12,16 +12,16 @@ body {
 }
 form {
   margin: auto;
-  width: 75%;
+  width: 40%;
   box-align: center;
   background-color: #ffffff;
   box-sizing:  border-box;
   border-radius: 5px;
   resize: vertical;
 }
-.top-t {
+.top-bott {
   text-align: center;
-  padding: 2%;
+  padding: 15px;
 }
 .questions {
   display: inline-block;
